@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#40B8B4"
+
+        >
+        <TextView
+            android:id="@+id/cusName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Rahul"
+            android:textColor="#070707"
+            android:fontFamily="@font/font3"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/cusEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="rahul@gmail.com"
+            android:fontFamily="@font/font3"
+            android:textSize="15sp"
+            android:textColor="#292828"
+            android:layout_below="@id/cusName"
+            />
+        <TextView
+            android:id="@+id/cusContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="7766066310"
+            android:fontFamily="@font/font3"
+            android:textSize="13sp"
+            android:layout_below="@id/cusEmail"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/customerUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/outline_create_24" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

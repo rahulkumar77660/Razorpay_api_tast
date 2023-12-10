@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/delteBtn"
+        android:title="Delete"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/updateBtn"
+        android:title="Update"
+        tools:ignore="HardcodedText" />
+
+</menu>
